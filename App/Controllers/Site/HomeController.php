@@ -9,9 +9,7 @@ class HomeController extends Controller
 {
   public function index()
   {
-    $view = View::render('site/public/home.html', [
-      'page_title' => 'Home'
-    ]);
+    $view = View::render('site/public/home.blade.php');
     echo $view;
   }
 }

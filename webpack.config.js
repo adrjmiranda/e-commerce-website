@@ -6,9 +6,13 @@ const __dirname = path.dirname(__filename);
 
 export default {
 	mode: 'production',
-	entry: './src/index.js',
+	entry: {
+		// site
+		main_banner_slide: './src/site/main_banner_slide.js',
+		// admin
+	},
 	output: {
-		filename: 'bundle.js',
+		filename: '[name].bundle.js',
 		path: path.resolve(__dirname, 'public/assets/js'),
 	},
 	module: {
@@ -22,6 +26,10 @@ export default {
 						presets: ['@babel/preset-env'],
 					},
 				},
+			},
+			{
+				test: /\.css$/i,
+				use: ['style-loader', 'css-loader'],
 			},
 		],
 	},
