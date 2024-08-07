@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8620d8d6041cb33d2e1219a277df08a9",
+    "content-hash": "8d8e34c1fc44f562ddba14fd1538cc43",
     "packages": [
         {
             "name": "cycle/annotated",
@@ -1008,54 +1008,67 @@
             "time": "2024-01-17T16:50:36+00:00"
         },
         {
-            "name": "nikic/fast-route",
-            "version": "v1.3.0",
+            "name": "pecee/simple-router",
+            "version": "5.4.1.7",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+                "url": "https://github.com/skipperbent/simple-php-router.git",
+                "reference": "a2843d5b1e037f8b61cc99f27eab52a28bf41dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
-                "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+                "url": "https://api.github.com/repos/skipperbent/simple-php-router/zipball/a2843d5b1e037f8b61cc99f27eab52a28bf41dfd",
+                "reference": "a2843d5b1e037f8b61cc99f27eab52a28bf41dfd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "ext-json": "*",
+                "php": ">=7.4"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35|~5.7"
+                "mockery/mockery": "^1",
+                "phpstan/phpstan": "^1",
+                "phpstan/phpstan-deprecation-rules": "^1",
+                "phpstan/phpstan-phpunit": "^1",
+                "phpstan/phpstan-strict-rules": "^1",
+                "phpunit/phpunit": "^8"
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "src/functions.php"
-                ],
                 "psr-4": {
-                    "FastRoute\\": "src/"
+                    "Pecee\\": "src/Pecee/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Nikita Popov",
-                    "email": "nikic@php.net"
+                    "name": "Simon Sessingø",
+                    "email": "simon.sessingoe@gmail.com"
                 }
             ],
-            "description": "Fast request router for PHP",
+            "description": "Simple, fast PHP router that is easy to get integrated and in almost any project. Heavily inspired by the Laravel router.",
             "keywords": [
+                "framework",
+                "input-handler",
+                "laravel",
+                "pecee",
+                "php",
+                "request-handler",
+                "route",
                 "router",
-                "routing"
+                "routing",
+                "routing-engine",
+                "simple-php-router",
+                "url-handling"
             ],
             "support": {
-                "issues": "https://github.com/nikic/FastRoute/issues",
-                "source": "https://github.com/nikic/FastRoute/tree/master"
+                "issues": "https://github.com/skipperbent/simple-php-router/issues",
+                "source": "https://github.com/skipperbent/simple-php-router/issues"
             },
-            "time": "2018-02-13T20:26:39+00:00"
+            "time": "2023-12-11T21:48:25+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
