@@ -53,7 +53,7 @@ final class Template_5e08e30fce extends Latte\Runtime\Template
 
 		echo '<script src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 6 */;
-		echo '/assets/js/banner_slide.bundle.js" defer></script>
+		echo '/assets/js/main_banner_slide.bundle.js" defer></script>
 ';
 	}
 

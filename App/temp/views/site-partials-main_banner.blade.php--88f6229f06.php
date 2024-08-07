@@ -19,19 +19,25 @@ final class Template_88f6229f06 extends Latte\Runtime\Template
             <div class="swiper-slide">
                 <img src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 5 */;
-		echo '/assets/img/banner_1.jpg" class="banner_img" alt="Banner 1">
+		echo '/assets/img/banner_1.png" class="banner_img" alt="Banner 1">
                 <div class="overlay"></div>
             </div>
             <div class="swiper-slide">
                 <img src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 9 */;
-		echo '/assets/img/banner_2.jpg" class="banner_img" alt="Banner 2">
+		echo '/assets/img/banner_2.png" class="banner_img" alt="Banner 2">
                 <div class="overlay"></div>
             </div>
             <div class="swiper-slide">
                 <img src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 13 */;
-		echo '/assets/img/banner_3.jpg" class="banner_img" alt="Banner 3">
+		echo '/assets/img/banner_3.png" class="banner_img" alt="Banner 3">
+                <div class="overlay"></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 17 */;
+		echo '/assets/img/banner_4.png" class="banner_img" alt="Banner 4">
                 <div class="overlay"></div>
             </div>
         </div>
