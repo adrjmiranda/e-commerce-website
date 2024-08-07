@@ -1,2 +1,3 @@
-# e-commerce-website
-A simple PHP project for an e-commerce
+# E-Commerce Website
+
+A simple PHP project for an e-commerce.
