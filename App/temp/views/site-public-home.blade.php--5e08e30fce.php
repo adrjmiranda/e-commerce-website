@@ -68,8 +68,8 @@ final class Template_5e08e30fce extends Latte\Runtime\Template
 		echo "\n";
 		$this->createTemplate('../partials/main_banner.blade.php', $this->params, 'include')->renderToContentType('html') /* line 11 */;
 		echo '<h1>Home</h1>
-<div>
-    <ul></ul>
+<div class="container">
+    <p>Adriano</p>
 </div>
 ';
 	}

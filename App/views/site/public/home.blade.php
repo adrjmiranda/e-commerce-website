@@ -10,7 +10,7 @@
 
 {include '../partials/main_banner.blade.php'}
 <h1>Home</h1>
-<div>
-    <ul></ul>
+<div class="container">
+    <p>Adriano</p>
 </div>
 {/block}
