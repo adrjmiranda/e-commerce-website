@@ -3,11 +3,15 @@
 namespace App\Controllers\Site;
 
 use App\Core\Controller\Controller;
+use App\Core\Template\View;
 
 class HomeController extends Controller
 {
   public function index()
   {
-    echo 'Home';
+    $view = View::render('site/public/home.html', [
+      'page_title' => 'Home'
+    ]);
+    echo $view;
   }
 }
