@@ -33,10 +33,16 @@ final class Template_1350346949 extends Latte\Runtime\Template
 		<title>';
 		echo LR\Filters::escapeHtmlText($page_title) /* line 12 */;
 		echo '</title>
+
+		<!-- Styles -->
+
+		<link rel="stylesheet" href="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 16 */;
+		echo '/assets/css/index.css" />
 	</head>
 	<body>
 		';
-		$this->renderBlock('content', get_defined_vars()) /* line 15 */;
+		$this->renderBlock('content', get_defined_vars()) /* line 19 */;
 		echo '
 	</body>
 </html>
@@ -44,7 +50,7 @@ final class Template_1350346949 extends Latte\Runtime\Template
 	}
 
 
-	/** {block content} on line 15 */
+	/** {block content} on line 19 */
 	public function blockContent(array $ʟ_args): void
 	{
 		echo ' ';
