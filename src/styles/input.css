@@ -108,13 +108,21 @@
 
 	.main_banner_slide_content {
 		@apply flex items-end h-full w-full;
+
+		.main_banner_img {
+			@apply flex flex-1 w-full h-full md:flex-[50%] self-end;
+		}
+
+		img {
+			@apply w-full flex-1 h-full items-end object-contain;
+		}
 	}
 
 	.main_banner_slide_text {
-		@apply flex-[50%] flex items-start flex-col justify-center h-full gap-4;
+		@apply absolute md:static z-10 flex-grow-0 md:flex-[50%] flex justify-end items-start flex-col md:justify-center mb-12 md:mb-0 h-full gap-4;
 
 		h2 {
-			@apply font-special-font text-7xl capitalize text-white;
+			@apply font-special-font text-7xl capitalize text-black md:text-white;
 		}
 
 		p {
