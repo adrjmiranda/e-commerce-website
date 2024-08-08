@@ -12,7 +12,7 @@ const swiper = new Swiper('.swiper', {
 	effect: 'fade',
 
 	autoplay: {
-		delay: 5000,
+		delay: 10000,
 		disableOnInteraction: false,
 	},
 

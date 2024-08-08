@@ -11,7 +11,9 @@ final class Template_fc69ba2260 extends Latte\Runtime\Template
 	public function main(array $ʟ_args): void
 	{
 		echo '<div>
-    <div class="container"></div>
+    <div class="container">
+        <h2>Footer</h2>
+    </div>
 </div>
 ';
 	}

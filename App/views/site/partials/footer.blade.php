@@ -1,3 +1,5 @@
 <div>
-    <div class="container"></div>
+    <div class="container">
+        <h2>Footer</h2>
+    </div>
 </div>

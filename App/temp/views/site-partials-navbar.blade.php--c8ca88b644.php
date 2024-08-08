@@ -12,10 +12,9 @@ final class Template_c8ca88b644 extends Latte\Runtime\Template
 	{
 		echo '<div class="bg-black">
     <div class="container">
-        <ul class="flex text-white justify-between h-16 items-center">
-            <li class="flex-1 flex justify-center items-center">
-                <a href="#" class="flex-1 h-full flex gap-1 items-center justify-center"><i
-                        class="ri-menu-line"></i>All
+        <ul class="navbar_menu">
+            <li class="navbar_first_item">
+                <a href="#" class="navbar_drop_link"><i class="ri-menu-line"></i>All
                     departments</a>
 
                 <!-- TODO: dropmenu --->
@@ -24,28 +23,28 @@ final class Template_c8ca88b644 extends Latte\Runtime\Template
                 </ul>
             </li>
 
-            <li class="border-l-2 border-white h-full flex items-center justify-center flex-1">
-                <a href="#" class="flex-1 h-full flex items-center justify-center">Home</a>
+            <li class="navbar_item">
+                <a href="#" class="navbar_item_link">Home</a>
             </li>
 
-            <li class="border-l-2 border-white h-full flex items-center justify-center flex-1">
-                <a href="#" class="flex-1 h-full flex items-center justify-center">Shop</a>
+            <li class="navbar_item">
+                <a href="#" class="navbar_item_link">Shop</a>
             </li>
 
-            <li class="border-l-2 border-white h-full flex items-center justify-center flex-1">
-                <a href="#" class="flex-1 h-full flex items-center justify-center">Collection</a>
+            <li class="navbar_item">
+                <a href="#" class="navbar_item_link">Collection</a>
             </li>
 
-            <li class="border-l-2 border-white h-full flex items-center justify-center flex-1">
-                <a href="#" class="flex-1 h-full flex items-center justify-center">Blog</a>
+            <li class="navbar_item">
+                <a href="#" class="navbar_item_link">Blog</a>
             </li>
 
-            <li class="border-l-2 border-white h-full flex items-center justify-center flex-1">
-                <a href="#" class="flex-1 h-full flex items-center justify-center">Contact</a>
+            <li class="navbar_item">
+                <a href="#" class="navbar_item_link">Contact</a>
             </li>
 
-            <li class="border-l-2 border-white h-full flex items-center justify-center flex-1">
-                <a href="#" class="flex-1 h-full flex items-center justify-center">Pages</a>
+            <li class="navbar_item navbar_last_item">
+                <a href="#" class="navbar_item_link">Pages</a>
             </li>
         </ul>
     </div>

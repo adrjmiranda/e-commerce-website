@@ -4,7 +4,7 @@ import swiper from './main_banner_slide.js';
 function animateText(index) {
 	const slides = document.querySelectorAll('.swiper-slide');
 	slides.forEach((slide, i) => {
-		const textElement = slide.querySelector('.slide-text');
+		const textElement = slide.querySelector('.main_banner_slide_text');
 		if (textElement) {
 			textElement.classList.remove('magictime', 'puffIn');
 			if (i === index) {
