@@ -38,11 +38,11 @@
 
         <div id="navbar_toggle" class="w-full text-white md:hidden">
             <button type="button" class="w-full py-4 text-2xl">
-                <span class="navbar_show_icon items-center justify-center">
-                    <i class="ri-menu-line"></i>
+                <span class="navbar_show_icon items-center justify-center pointer-events-none">
+                    <i class="ri-menu-line pointer-events-none"></i>
                 </span>
-                <span class="navbar_hidden_icon hidden items-center justify-center text-yellow">
-                    <i class="ri-arrow-up-wide-line"></i>
+                <span class="navbar_hidden_icon hidden items-center justify-center text-yellow pointer-events-none">
+                    <i class="ri-arrow-up-wide-line pointer-events-none"></i>
                 </span>
             </button>
         </div>

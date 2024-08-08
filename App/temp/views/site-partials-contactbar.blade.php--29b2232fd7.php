@@ -12,11 +12,11 @@ final class Template_29b2232fd7 extends Latte\Runtime\Template
 	{
 		echo '<div class="h-8 bg-gray">
     <div class="container flex justify-between items-center h-full p-0">
-        <div class="mail pt-4 pr-4 pb-4 pl-0">
+        <div class="mail pt-4 pr-4 pb-4 pl-0 hidden sm:flex">
             <p class="flex gap-1"><i class="ri-mail-fill"></i><span>contact@email.com</span></p>
         </div>
 
-        <div class="flex flex-1 justify-between border-x-2 border-black px-4">
+        <div class="hidden sm:flex flex-1 justify-between border-x-2 border-black px-4">
             <div class="phone">
                 <p class="flex gap-1"><i class="ri-phone-fill"></i><span>+99 11555-3344</span></p>
             </div>
@@ -49,7 +49,7 @@ final class Template_29b2232fd7 extends Latte\Runtime\Template
             </form>
         </div>
 
-        <div class="login pt-4 pr-0 pb-4 pl-4">
+        <div class="login p-4">
             <a href="#" class="flex gap-1"><i class="ri-user-3-fill"></i>Login</a>
         </div>
     </div>

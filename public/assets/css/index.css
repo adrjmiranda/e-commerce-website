@@ -615,22 +615,42 @@ html,
 }
 
 .logo{
-  display: flex;
+  display: none;
   align-items: center;
   gap: 0.5rem;
+}
+
+@media (min-width: 640px){
+  .logo{
+    display: flex;
+  }
+}
+
+.logo {
   img{
-    height: 2.5rem;
+    height: 2rem;
+  }
+  @media (min-width: 640px){
+    img{
+      height: 2.5rem;
+    }
   }
   span{
     font-family: Lobster, sans-serif;
   }
   span{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
   span{
     --tw-text-opacity: 1;
     color: rgb(255 195 71 / var(--tw-text-opacity));
+  }
+  @media (min-width: 768px){
+    span{
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
   }
 }
 
@@ -638,18 +658,37 @@ html,
 
 /* Searchbar */
 
+.searchbar_form{
+  display: flex;
+  width: 100%;
+  flex: 1 1 0%;
+}
+
+@media (min-width: 640px){
+  .searchbar_form{
+    margin-right: 0.5rem;
+    flex-grow: 0;
+  }
+}
+
 .searchbar_form {
   form{
     display: flex;
   }
   form{
+    flex: 1 1 0%;
+  }
+  form{
     align-items: center;
+  }
+  select{
+    display: none;
   }
   select{
     height: 3rem;
   }
   select{
-    flex: 1 1 0%;
+    flex-grow: 0;
   }
   select{
     cursor: pointer;
@@ -672,6 +711,16 @@ html,
   select{
     text-transform: capitalize;
   }
+  @media (min-width: 640px){
+    select{
+      display: flex;
+    }
+  }
+  @media (min-width: 640px){
+    select{
+      flex: 1 1 0%;
+    }
+  }
   input{
     height: 3rem;
   }
@@ -688,7 +737,7 @@ html,
     border-bottom-width: 1px;
   }
   input{
-    border-left-width: 0px;
+    border-left-width: 1px;
   }
   input{
     --tw-border-opacity: 1;
@@ -703,6 +752,11 @@ html,
   }
   input::placeholder{
     font-weight: 300;
+  }
+  @media (min-width: 640px){
+    input{
+      border-left-width: 0px;
+    }
   }
   button{
     display: flex;
@@ -733,6 +787,13 @@ html,
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  align-self: flex-end;
+}
+
+@media (min-width: 640px){
+  .searchbar_info{
+    align-self: center;
+  }
 }
 
 /* Navbar */
@@ -946,6 +1007,10 @@ html,
   }
 }
 
+.pointer-events-none{
+  pointer-events: none;
+}
+
 .block{
   display: block;
 }
@@ -986,6 +1051,10 @@ html,
   flex: 50%;
 }
 
+.flex-col-reverse{
+  flex-direction: column-reverse;
+}
+
 .items-center{
   align-items: center;
 }
@@ -1004,6 +1073,10 @@ html,
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .gap-y-8{
@@ -1053,6 +1126,10 @@ html,
   padding: 0px;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1081,14 +1158,6 @@ html,
   padding-left: 0px;
 }
 
-.pl-4{
-  padding-left: 1rem;
-}
-
-.pr-0{
-  padding-right: 0px;
-}
-
 .pr-4{
   padding-right: 1rem;
 }
@@ -1104,6 +1173,11 @@ html,
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-sm{
@@ -1159,7 +1233,25 @@ html,
   background-color: #ffc347;
 }
 
+@media (min-width: 640px){
+  .sm\:flex{
+    display: flex;
+  }
+
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
+  .sm\:gap-1{
+    gap: 0.25rem;
+  }
+}
+
 @media (min-width: 768px){
+  .md\:inline{
+    display: inline;
+  }
+
   .md\:hidden{
     display: none;
   }
@@ -1175,5 +1267,10 @@ html,
   .md\:gap-x-8{
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
