@@ -10,6 +10,7 @@ export default {
 		// site
 		main_banner_slide: './src/site/main_banner_slide.js',
 		main_banner_magictime: './src/site/main_banner_magictime.js',
+		magictime: './src/site/magictime.js',
 		remixicon: './src/site/remixicon.js',
 		// admin
 	},

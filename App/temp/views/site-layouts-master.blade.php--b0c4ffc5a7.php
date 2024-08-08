@@ -41,23 +41,26 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
     <script src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 17 */;
 		echo '/assets/js/remixicon.bundle.js" defer></script>
+    <script src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 18 */;
+		echo '/assets/js/magictime.bundle.js" defer></script>
 
     <!-- Styles -->
 
     <link rel="stylesheet" href="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 21 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 22 */;
 		echo '/assets/css/index.css" />
 </head>
 
 <body>
 ';
-		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 25 */;
-		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 26 */;
-		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
+		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 26 */;
+		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
+		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 28 */;
 		echo '    ';
-		$this->renderBlock('content', get_defined_vars()) /* line 28 */;
+		$this->renderBlock('content', get_defined_vars()) /* line 29 */;
 		echo "\n";
-		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 29 */;
+		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 30 */;
 		echo '</body>
 
 </html>
@@ -77,7 +80,7 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 	}
 
 
-	/** {block content} on line 28 */
+	/** {block content} on line 29 */
 	public function blockContent(array $ʟ_args): void
 	{
 		echo ' ';

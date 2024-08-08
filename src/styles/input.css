@@ -123,6 +123,42 @@
 			@apply text-2xl font-light capitalize;
 		}
 	}
+
+	/* Footer */
+	.footer_col {
+		@apply flex flex-col gap-4;
+
+		h5 {
+			@apply font-bold text-[1.05rem];
+		}
+
+		p {
+			@apply text-justify flex items-start gap-1 font-light;
+		}
+
+		ul {
+			@apply flex;
+
+			&.payment_list {
+				@apply gap-2;
+
+				li {
+					@apply text-3xl;
+				}
+			}
+
+			&.links_list {
+				@apply flex-col gap-1;
+			}
+			&.social_list {
+				@apply gap-4;
+			}
+
+			a {
+				@apply font-medium capitalize opacity-85 hover:opacity-100 transition-all;
+			}
+		}
+	}
 }
 
 /* Additional */

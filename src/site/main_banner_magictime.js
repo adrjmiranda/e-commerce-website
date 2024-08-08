@@ -1,4 +1,3 @@
-import 'magic.css/dist/magic.css';
 import swiper from './main_banner_slide.js';
 
 function animateText(index) {

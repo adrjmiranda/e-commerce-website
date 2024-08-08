@@ -13,7 +13,7 @@ final class Template_29b2232fd7 extends Latte\Runtime\Template
 		echo '<div class="h-8 bg-gray">
     <div class="container flex justify-between items-center h-full p-0">
         <div class="mail pt-4 pr-4 pb-4 pl-0">
-            <p class="flex gap-1"><i class="ri-mail-fill"></i><span>adrjmiranda@gmail.com</span></p>
+            <p class="flex gap-1"><i class="ri-mail-fill"></i><span>contact@email.com</span></p>
         </div>
 
         <div class="flex flex-1 justify-between border-x-2 border-black px-4">
