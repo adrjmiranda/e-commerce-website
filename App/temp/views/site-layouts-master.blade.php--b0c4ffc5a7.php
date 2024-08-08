@@ -56,8 +56,9 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
 		echo '    ';
 		$this->renderBlock('content', get_defined_vars()) /* line 28 */;
-		echo '
-</body>
+		echo "\n";
+		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 29 */;
+		echo '</body>
 
 </html>
 ';

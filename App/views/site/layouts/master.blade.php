@@ -26,6 +26,7 @@
     {include '../partials/searchbar.blade.php'}
     {include '../partials/navbar.blade.php'}
     {block content} {/block}
+    {include '../partials/footer.blade.php'}
 </body>
 
 </html>

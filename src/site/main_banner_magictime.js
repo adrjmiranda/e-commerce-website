@@ -15,8 +15,24 @@ function animateText(index) {
 	});
 }
 
+function animateImage(index) {
+	const slides = document.querySelectorAll('.swiper-slide');
+	slides.forEach((slide, i) => {
+		const imageElement = slide.querySelector('img');
+		if (imageElement) {
+			imageElement.classList.remove('magictime', 'tinLeftIn');
+			if (i === index) {
+				void imageElement.offsetWidth;
+				imageElement.classList.add('magictime', 'tinLeftIn');
+			}
+		}
+	});
+}
+
 swiper.on('activeIndexChange', function () {
 	animateText(swiper.activeIndex);
+	animateImage(swiper.activeIndex);
 });
 
 animateText(swiper.realIndex);
+animateImage(swiper.activeIndex);
