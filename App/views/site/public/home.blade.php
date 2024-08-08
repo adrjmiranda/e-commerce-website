@@ -10,7 +10,7 @@
 {block content}
 
 {include '../partials/main_banner.blade.php'}
-<div class="container">
-    <h1>Home</h1>
-</div>
+
+{include '../partials/featured_departments.blade.php'}
+
 {/block}
