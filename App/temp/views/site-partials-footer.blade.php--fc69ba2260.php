@@ -13,7 +13,7 @@ final class Template_fc69ba2260 extends Latte\Runtime\Template
 		echo '<footer>
     <div class="bg-gray py-12">
         <div class="container">
-            <div class="grid md:grid-rows-1 md:grid-cols-4 md:gap-x-4 gap-y-8">
+            <div class="grid md:grid-rows-1 md:grid-cols-4 md:gap-x-8 gap-y-8">
                 <div class="footer_col">
                     <h5>About</h5>
 

@@ -31,9 +31,20 @@
                 <a href="#" class="navbar_item_link">Contact</a>
             </li>
 
-            <li class="navbar_item navbar_last_item">
+            <li class="navbar_item">
                 <a href="#" class="navbar_item_link">Pages</a>
             </li>
         </ul>
+
+        <div id="navbar_toggle" class="w-full text-white md:hidden">
+            <button type="button" class="w-full py-4 text-2xl">
+                <span class="navbar_show_icon items-center justify-center">
+                    <i class="ri-menu-line"></i>
+                </span>
+                <span class="navbar_hidden_icon hidden items-center justify-center text-yellow">
+                    <i class="ri-arrow-up-wide-line"></i>
+                </span>
+            </button>
+        </div>
     </div>
 </div>

@@ -44,23 +44,26 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
     <script src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 18 */;
 		echo '/assets/js/magictime.bundle.js" defer></script>
+    <script src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 19 */;
+		echo '/assets/js/navbar_toggle.bundle.js" defer></script>
 
     <!-- Styles -->
 
     <link rel="stylesheet" href="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 22 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 23 */;
 		echo '/assets/css/index.css" />
 </head>
 
 <body>
 ';
-		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 26 */;
-		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
-		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 28 */;
+		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
+		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 28 */;
+		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 29 */;
 		echo '    ';
-		$this->renderBlock('content', get_defined_vars()) /* line 29 */;
+		$this->renderBlock('content', get_defined_vars()) /* line 30 */;
 		echo "\n";
-		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 30 */;
+		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 31 */;
 		echo '</body>
 
 </html>
@@ -80,7 +83,7 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 	}
 
 
-	/** {block content} on line 29 */
+	/** {block content} on line 30 */
 	public function blockContent(array $ʟ_args): void
 	{
 		echo ' ';
