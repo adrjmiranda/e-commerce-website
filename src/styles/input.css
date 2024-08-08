@@ -20,10 +20,22 @@
 	.container {
 		@apply w-full max-w-7xl mx-auto px-2;
 	}
+
+	.logo {
+		@apply flex items-center gap-2;
+
+		img {
+			@apply h-10;
+		}
+
+		span {
+			@apply text-4xl text-yellow;
+		}
+	}
 }
 
 .main_banner .swiper {
-	height: 850px;
+	height: 650px;
 	width: 100vw;
 }
 
@@ -35,14 +47,6 @@
 	height: 100%;
 	background: rgba(0, 0, 0, 0.1);
 	z-index: 1;
-}
-
-.main_banner .banner_img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	z-index: 0;
-	display: flex;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {

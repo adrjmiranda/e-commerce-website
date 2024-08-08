@@ -24,7 +24,7 @@ final class Template_5e08e30fce extends Latte\Runtime\Template
 ';
 		$this->renderBlock('scripts', get_defined_vars()) /* line 5 */;
 		echo "\n";
-		$this->renderBlock('content', get_defined_vars()) /* line 9 */;
+		$this->renderBlock('content', get_defined_vars()) /* line 10 */;
 	}
 
 
@@ -54,11 +54,14 @@ final class Template_5e08e30fce extends Latte\Runtime\Template
 		echo '<script src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 6 */;
 		echo '/assets/js/main_banner_slide.bundle.js" defer></script>
+<script src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 7 */;
+		echo '/assets/js/main_banner_magictime.bundle.js" defer></script>
 ';
 	}
 
 
-	/** {block content} on line 9 */
+	/** {block content} on line 10 */
 	public function blockContent(array $ʟ_args): void
 	{
 		extract($this->params);
@@ -66,7 +69,7 @@ final class Template_5e08e30fce extends Latte\Runtime\Template
 		unset($ʟ_args);
 
 		echo "\n";
-		$this->createTemplate('../partials/main_banner.blade.php', $this->params, 'include')->renderToContentType('html') /* line 11 */;
+		$this->createTemplate('../partials/main_banner.blade.php', $this->params, 'include')->renderToContentType('html') /* line 12 */;
 		echo '<h1>Home</h1>
 <div class="container">
     <p>Adriano</p>

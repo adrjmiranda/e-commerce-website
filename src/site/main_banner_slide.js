@@ -21,3 +21,5 @@ const swiper = new Swiper('.swiper', {
 		clickable: true,
 	},
 });
+
+export default swiper;

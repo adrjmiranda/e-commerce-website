@@ -4,6 +4,7 @@
 
 {block scripts}
 <script src="{$base_url}/assets/js/main_banner_slide.bundle.js" defer></script>
+<script src="{$base_url}/assets/js/main_banner_magictime.bundle.js" defer></script>
 {/block}
 
 {block content}

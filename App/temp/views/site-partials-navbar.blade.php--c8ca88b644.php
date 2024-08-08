@@ -1,4 +1,16 @@
-<div class="bg-black">
+<?php
+
+use Latte\Runtime as LR;
+
+/** source: site/partials/navbar.blade.php */
+final class Template_c8ca88b644 extends Latte\Runtime\Template
+{
+	public const Source = 'site/partials/navbar.blade.php';
+
+
+	public function main(array $ʟ_args): void
+	{
+		echo '<div class="bg-black">
     <div class="container">
         <ul class="flex text-white justify-between h-16 items-center">
             <li class="flex-1 flex justify-center items-center">
@@ -38,3 +50,6 @@
         </ul>
     </div>
 </div>
+';
+	}
+}

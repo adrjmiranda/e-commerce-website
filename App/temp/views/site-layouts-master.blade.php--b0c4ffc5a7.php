@@ -36,16 +36,26 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 ';
 		$this->renderBlock('scripts', get_defined_vars()) /* line 13 */;
 		echo '
+    <!-- Remix Icon -->
+
+    <script src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 17 */;
+		echo '/assets/js/remixicon.bundle.js" defer></script>
+
     <!-- Styles -->
 
     <link rel="stylesheet" href="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 17 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 21 */;
 		echo '/assets/css/index.css" />
 </head>
 
 <body>
-    ';
-		$this->renderBlock('content', get_defined_vars()) /* line 21 */;
+';
+		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 25 */;
+		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 26 */;
+		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
+		echo '    ';
+		$this->renderBlock('content', get_defined_vars()) /* line 28 */;
 		echo '
 </body>
 
@@ -66,7 +76,7 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 	}
 
 
-	/** {block content} on line 21 */
+	/** {block content} on line 28 */
 	public function blockContent(array $ʟ_args): void
 	{
 		echo ' ';

@@ -12,12 +12,19 @@
 
     {block scripts}{/block}
 
+    <!-- Remix Icon -->
+
+    <script src="{$base_url}/assets/js/remixicon.bundle.js" defer></script>
+
     <!-- Styles -->
 
     <link rel="stylesheet" href="{$base_url}/assets/css/index.css" />
 </head>
 
 <body>
+    {include '../partials/contactbar.blade.php'}
+    {include '../partials/searchbar.blade.php'}
+    {include '../partials/navbar.blade.php'}
     {block content} {/block}
 </body>
 
