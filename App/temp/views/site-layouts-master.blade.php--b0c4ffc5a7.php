@@ -55,15 +55,20 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 		echo '/assets/css/index.css" />
 </head>
 
-<body>
+<body class="relative">
 ';
 		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
 		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 28 */;
 		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 29 */;
-		echo '    ';
-		$this->renderBlock('content', get_defined_vars()) /* line 30 */;
+		echo '
+    ';
+		$this->renderBlock('content', get_defined_vars()) /* line 31 */;
+		echo '
+
+';
+		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 33 */;
 		echo "\n";
-		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 31 */;
+		$this->createTemplate('../partials/cart.blade.php', $this->params, 'include')->renderToContentType('html') /* line 35 */;
 		echo '</body>
 
 </html>
@@ -83,7 +88,7 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 	}
 
 
-	/** {block content} on line 30 */
+	/** {block content} on line 31 */
 	public function blockContent(array $ʟ_args): void
 	{
 		echo ' ';

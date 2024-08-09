@@ -28,7 +28,6 @@ final class Template_88f6229f06 extends Latte\Runtime\Template
 		echo '/assets/img/shopping_1.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
             <div class="swiper-slide bg-red">
                 <div class="container main_banner_slide_content">
@@ -38,11 +37,10 @@ final class Template_88f6229f06 extends Latte\Runtime\Template
                     </div>
                     <div class="main_banner_img">
                         <img src="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 23 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 22 */;
 		echo '/assets/img/shopping_2.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
             <div class="swiper-slide bg-blue">
                 <div class="container main_banner_slide_content">
@@ -52,11 +50,10 @@ final class Template_88f6229f06 extends Latte\Runtime\Template
                     </div>
                     <div class="main_banner_img">
                         <img src="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 35 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 33 */;
 		echo '/assets/img/shopping_3.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
             <div class="swiper-slide bg-gray">
                 <div class="container main_banner_slide_content">
@@ -66,11 +63,10 @@ final class Template_88f6229f06 extends Latte\Runtime\Template
                     </div>
                     <div class="main_banner_img">
                         <img src="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 47 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 44 */;
 		echo '/assets/img/shopping_4.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
         </div>
         <div class="swiper-pagination"></div>

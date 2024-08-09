@@ -31,7 +31,7 @@
 
         <div class="language border-r-2 border-black px-4">
             <form action="#">
-                <select name="language">
+                <select name="language" class="p-1">
                     <option value="">English</option>
                 </select>
             </form>

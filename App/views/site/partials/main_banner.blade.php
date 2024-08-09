@@ -11,7 +11,6 @@
                         <img src="{$base_url}/assets/img/shopping_1.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
             <div class="swiper-slide bg-red">
                 <div class="container main_banner_slide_content">
@@ -23,7 +22,6 @@
                         <img src="{$base_url}/assets/img/shopping_2.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
             <div class="swiper-slide bg-blue">
                 <div class="container main_banner_slide_content">
@@ -35,7 +33,6 @@
                         <img src="{$base_url}/assets/img/shopping_3.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
             <div class="swiper-slide bg-gray">
                 <div class="container main_banner_slide_content">
@@ -47,7 +44,6 @@
                         <img src="{$base_url}/assets/img/shopping_4.png" alt="Shopping">
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
         </div>
         <div class="swiper-pagination"></div>

@@ -23,12 +23,16 @@
     <link rel="stylesheet" href="{$base_url}/assets/css/index.css" />
 </head>
 
-<body>
+<body class="relative">
     {include '../partials/contactbar.blade.php'}
     {include '../partials/searchbar.blade.php'}
     {include '../partials/navbar.blade.php'}
+
     {block content} {/block}
+
     {include '../partials/footer.blade.php'}
+
+    {include '../partials/cart.blade.php'}
 </body>
 
 </html>

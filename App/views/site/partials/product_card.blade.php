@@ -10,9 +10,11 @@
     </button>
 
     <div class="text-center flex flex-col my-4">
-        <a href="#" class="capitalize font-light">Product name lorem</a>
+        <a href="#" class="capitalize font-light whitespace-nowrap text-ellipsis overflow-hidden">Product name
+            lorem</a>
         <span>$ 32.33</span>
     </div>
 
-    <a href="#" class="text-center w-full block bg-yellow text-white rounded-sm py-1">Check</a>
+    <a href="#"
+        class="text-center w-full block bg-yellow text-white rounded-sm py-1 hover:scale-105 transition-all">Check</a>
 </div>
