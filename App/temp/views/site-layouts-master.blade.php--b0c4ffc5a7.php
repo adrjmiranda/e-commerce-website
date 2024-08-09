@@ -47,28 +47,31 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
     <script src="';
 		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 19 */;
 		echo '/assets/js/navbar_toggle.bundle.js" defer></script>
+    <script src="';
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 20 */;
+		echo '/assets/js/toggle_cart.bundle.js" defer></script>
 
     <!-- Styles -->
 
     <link rel="stylesheet" href="';
-		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 23 */;
+		echo LR\Filters::escapeHtmlAttr(LR\Filters::safeUrl($base_url)) /* line 24 */;
 		echo '/assets/css/index.css" />
 </head>
 
 <body class="relative">
 ';
-		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 27 */;
-		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 28 */;
-		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 29 */;
+		$this->createTemplate('../partials/contactbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 28 */;
+		$this->createTemplate('../partials/searchbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 29 */;
+		$this->createTemplate('../partials/navbar.blade.php', $this->params, 'include')->renderToContentType('html') /* line 30 */;
 		echo '
     ';
-		$this->renderBlock('content', get_defined_vars()) /* line 31 */;
+		$this->renderBlock('content', get_defined_vars()) /* line 32 */;
 		echo '
 
 ';
-		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 33 */;
+		$this->createTemplate('../partials/footer.blade.php', $this->params, 'include')->renderToContentType('html') /* line 34 */;
 		echo "\n";
-		$this->createTemplate('../partials/cart.blade.php', $this->params, 'include')->renderToContentType('html') /* line 35 */;
+		$this->createTemplate('../partials/cart.blade.php', $this->params, 'include')->renderToContentType('html') /* line 36 */;
 		echo '</body>
 
 </html>
@@ -88,7 +91,7 @@ final class Template_b0c4ffc5a7 extends Latte\Runtime\Template
 	}
 
 
-	/** {block content} on line 31 */
+	/** {block content} on line 32 */
 	public function blockContent(array $ʟ_args): void
 	{
 		echo ' ';

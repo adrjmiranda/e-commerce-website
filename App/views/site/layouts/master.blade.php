@@ -17,6 +17,7 @@
     <script src="{$base_url}/assets/js/remixicon.bundle.js" defer></script>
     <script src="{$base_url}/assets/js/magictime.bundle.js" defer></script>
     <script src="{$base_url}/assets/js/navbar_toggle.bundle.js" defer></script>
+    <script src="{$base_url}/assets/js/toggle_cart.bundle.js" defer></script>
 
     <!-- Styles -->
 

@@ -11,6 +11,7 @@ export default {
 		main_banner_slide: './src/site/main_banner_slide.js',
 		main_banner_magictime: './src/site/main_banner_magictime.js',
 		navbar_toggle: './src/site/navbar_toggle.js',
+		toggle_cart: './src/site/toggle_cart.js',
 		magictime: './src/site/magictime.js',
 		remixicon: './src/site/remixicon.js',
 		// admin
