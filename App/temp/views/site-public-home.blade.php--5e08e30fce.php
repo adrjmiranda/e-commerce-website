@@ -73,5 +73,7 @@ final class Template_5e08e30fce extends Latte\Runtime\Template
 		echo "\n";
 		$this->createTemplate('../partials/featured_departments.blade.php', $this->params, 'include')->renderToContentType('html') /* line 14 */;
 		echo "\n";
+		$this->createTemplate('../partials/products_on_offers.blade.php', $this->params, 'include')->renderToContentType('html') /* line 16 */;
+		echo "\n";
 	}
 }

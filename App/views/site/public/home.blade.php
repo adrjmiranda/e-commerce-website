@@ -13,4 +13,6 @@
 
 {include '../partials/featured_departments.blade.php'}
 
+{include '../partials/products_on_offers.blade.php'}
+
 {/block}
